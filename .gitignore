@@ -1,0 +1,53 @@
+﻿# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Next.js
+.next/
+**/.next/
+out/
+
+# Build files
+dist/
+build/
+coverage/
+
+# Database backups
+*.dump
+*.backup
+*.bak
+
+# Logs
+*.log
+npm-debug.log*
+
+# Private uploads and patient documents
+uploads/
+**/uploads/
+storage/
+**/storage/
+
+# Private keys and certificates
+*.pem
+*.key
+*.crt
+
+# Editor and local settings
+.vscode/
+
+# Deployment and cache
+.vercel/
+.turbo/
+
+# Local diagnostic and maintenance scripts
+backend/check-patient-login.js
+backend/reset-doctor-password.js
+backend/server-backup.js
+
+backend/reset-doctor-password.js
